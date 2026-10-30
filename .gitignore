@@ -1,0 +1,14 @@
+# Build artifacts
+/build
+/out
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Clang-tidy / Clangd cache
+.cache/
+
+# IDEs configuration
+compile_commands.json
+.vscode/
