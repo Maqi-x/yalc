@@ -1,6 +1,10 @@
-#ifndef __YALC_RUNTIME_START_h
-#define __YALC_RUNTIME_START_h
+#ifndef __YALC_RUNTIME_START_H
+#define __YALC_RUNTIME_START_H
 
-// TODO
+#include <yalc/config.h>
+#include __YALC_INC(cstd.h)
 
-#endif // __YALC_RUNTIME_START_h
+__YALC_NO_RETURN__
+void _start();
+
+#endif // __YALC_RUNTIME_START_H

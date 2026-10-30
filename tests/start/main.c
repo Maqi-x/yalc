@@ -1,3 +1,8 @@
+/*
+ exit-code:
+   47
+*/
+
 int main() {
-    return 0;
+    return 47;
 }
