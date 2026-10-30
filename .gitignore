@@ -3,12 +3,19 @@
 /out
 
 # Python cache
-__pycache__/
+__pycache__
 *.pyc
 
 # Clang-tidy / Clangd cache
 .cache/
 
+# Debugging
+vgcore.*
+
+# Local files
+.local/
+
 # IDEs configuration
 compile_commands.json
+compile_flags.txt
 .vscode/

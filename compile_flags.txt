@@ -1,2 +1,0 @@
--Iinclude
--D__YALC_INC_BASE=yalc/
