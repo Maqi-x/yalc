@@ -1,6 +1,7 @@
 #include <yalc/config.h>
 
 #include __YALC_API_INC(stdlib.h)
+#include __YALC_API_INC(stddef.h)
 
 __YALC_NO_RETURN__
 void exit(int __ec) {
@@ -11,4 +12,6 @@ void exit(int __ec) {
         : "a"(60), "D"(__ec)
         : "rcx", "r11", "memory"
     );
+
+    __yalc_unreachable();
 }

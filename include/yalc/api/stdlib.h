@@ -3,8 +3,7 @@
 
 #include <yalc/config.h>
 #include __YALC_INC(cstd.h)
-
-#define NULL ((void*)0)
+#include __YALC_INTL_INC(null.h)
 
 __YALC_NO_RETURN__
 void exit(int __ec);
