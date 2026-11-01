@@ -15,6 +15,9 @@
 //       #  define __INT8_TYPE__ ...
 //       #endif
 
+#ifdef __M
+#   undef __M
+#endif
 #define __M(MAX) (-(MAX) - 1)
 
 /////////////// 8-bit ///////////////
